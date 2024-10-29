@@ -4,12 +4,58 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fab18fe7-f106-4b29-ad6d-7b97ead266b9" name="Changes" comment="" />
+    <list default="true" id="fab18fe7-f106-4b29-ad6d-7b97ead266b9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/Burglar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/FightMechanics.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/Resident.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Hallway.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/fight/Burglar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/fight/Entity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/fight/FightMechanics.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/fight/Resident.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/rooms/Hallway.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/rooms/Kitchen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/rooms/Office.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/rooms/Rooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Rooms.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "nanawally"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/nanawally/Home-Invasion-Game.git",
+    "accountId": "3cbf429f-94d7-4863-8f7b-989d00a961bd"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
 }]]></component>
@@ -21,8 +67,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Administratör/Documents/JavaProjects/Java B/Home-Invasion-Game/src/main/java/se/anna/main/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -42,8 +97,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1730202357530</updated>
-      <workItem from="1730202358456" duration="2000" />
+      <workItem from="1730202358456" duration="9805000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
