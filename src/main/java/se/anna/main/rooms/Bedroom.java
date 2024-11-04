@@ -27,7 +27,7 @@ public class Bedroom implements Rooms {
                     System.out.println("\nYou go back to the living room.");
                     running = false;
                 }
-                default -> System.out.println("Invalid input");
+                default -> System.out.println("\nInvalid input");
             }
         }
     }
