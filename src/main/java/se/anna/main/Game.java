@@ -43,7 +43,7 @@ public class Game {
     public void basicMenu() {
         boolean running = true;
         while (running) {
-            if (((Office) office).isCalledPolice()){
+            if (((Office) office).isCalledPolice()) {
                 running = false;
             } else {
                 System.out.println("\nWhere are you going to go?\n*) Hallway\n*) Office\n*) Bedroom\n*) Kitchen\n*) Quit game");

@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fab18fe7-f106-4b29-ad6d-7b97ead266b9" name="Changes" comment="">
+    <list default="true" id="fab18fe7-f106-4b29-ad6d-7b97ead266b9" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/FightMechanics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/FightMechanics.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Hallway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Hallway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Kitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Office.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,11 +78,23 @@
       <updated>1730202357530</updated>
       <workItem from="1730202358456" duration="9805000" />
       <workItem from="1730361574624" duration="3308000" />
-      <workItem from="1730706973714" duration="9088000" />
+      <workItem from="1730706973714" duration="10606000" />
     </task>
+    <task id="LOCAL−00001" summary="commit">
+      <option name="closed" value="true" />
+      <created>1730716817702</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1730716817702</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>

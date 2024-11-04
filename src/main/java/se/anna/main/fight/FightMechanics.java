@@ -10,7 +10,7 @@ public class FightMechanics {
         this.scanner = scanner;
     }
 
-    public void fightRound(Entity attacker, Entity defender){
+    public void fightRound(Entity attacker, Entity defender) {
         while (running && attacker.isConscious() && defender.isConscious()) {
             executeAttack(attacker, defender);
             if (defender.isConscious()) {
@@ -32,13 +32,13 @@ public class FightMechanics {
         running = true;
     }
 
-    static void executeAttack(Entity attacker, Entity defender){
+    static void executeAttack(Entity attacker, Entity defender) {
         attacker.attack(defender);
-        System.out.println("\n"+attacker.getRole()+" has attacked "+defender.getRole()+".");
-        if (defender.isConscious()){
-            System.out.println("\n"+defender.getRole()+" has "+defender.getHealth()+" health points left.");
+        System.out.println("\n" + attacker.getRole() + " has attacked " + defender.getRole() + ".");
+        if (defender.isConscious()) {
+            System.out.println("\n" + defender.getRole() + " has " + defender.getHealth() + " health points left.");
         } else {
-            System.out.println("\n"+defender.getRole()+" has gotten knocked unconscious.");
+            System.out.println("\n" + defender.getRole() + " has gotten knocked unconscious.");
         }
     }
 }

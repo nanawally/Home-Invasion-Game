@@ -48,13 +48,14 @@ public class Office implements Rooms {
                             
                             You look around the room. The phone is still on the desk.
                             There is nothing else of use in here.""");
-                    case "call the police" -> {if (!burglar.isConscious()){
-                        callPolice();
-                        running = false;
-                    } else {
-                        System.out.println("\nCalling the police would make too much noise. Knock out the burglar first.");
+                    case "call the police" -> {
+                        if (!burglar.isConscious()) {
+                            callPolice();
+                            running = false;
+                        } else {
+                            System.out.println("\nCalling the police would make too much noise. Knock out the burglar first.");
+                        }
                     }
-                         }
                     case "exit the room" -> {
                         System.out.println("\nYou go back to the living room.");
                         running = false;
@@ -65,13 +66,13 @@ public class Office implements Rooms {
         }
     }
 
-    public boolean callPolice(){
+    public boolean callPolice() {
         calledPolice = true;
         System.out.println("\nYou call the police. You're safe!");
         return calledPolice;
     }
 
-    public boolean isCalledPolice(){
+    public boolean isCalledPolice() {
         return calledPolice;
     }
 }
