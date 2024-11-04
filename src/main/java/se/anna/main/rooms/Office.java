@@ -8,11 +8,13 @@ public class Office implements Rooms {
     private final Scanner scanner;
     private boolean seenPhone;
     private Burglar burglar;
+    private boolean calledPolice;
 
-    public Office(Scanner scanner, Burglar burglar) {
+    public Office(Scanner scanner, Burglar burglar, boolean calledPolice) {
         this.scanner = scanner;
         this.burglar = burglar;
         this.seenPhone = false;
+        this.calledPolice = calledPolice;
     }
 
     @Override
@@ -63,7 +65,13 @@ public class Office implements Rooms {
         }
     }
 
-    public void callPolice(){
+    public boolean callPolice(){
+        calledPolice = true;
         System.out.println("\nYou call the police. You're safe!");
+        return calledPolice;
+    }
+
+    public boolean isCalledPolice(){
+        return calledPolice;
     }
 }

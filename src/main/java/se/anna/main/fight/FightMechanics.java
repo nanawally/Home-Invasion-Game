@@ -24,7 +24,7 @@ public class FightMechanics {
                     if (userInput.equals("no")) {
                         running = false;
                     } else if (!userInput.equals("yes")) {
-                        System.out.println("Invalid input");
+                        System.out.println("\nInvalid input");
                     }
                 } while (!userInput.equals("yes") && running);
             }

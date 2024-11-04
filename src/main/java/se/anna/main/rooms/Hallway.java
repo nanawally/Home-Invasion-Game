@@ -44,21 +44,25 @@ public class Hallway implements Rooms {
                         System.out.println("\nYou go back to the living room.");
                         running = false;
                     }
-                    default -> System.out.println("Invalid input");
+                    default -> System.out.println("\nInvalid input");
                 }
             } else {
+                resident.setHealth(12);
+                burglar.setHealth(12);
                 System.out.println("\nDo you attack first?\n*) Yes\n*) No");
                 String userInput = scanner.nextLine().toLowerCase().trim();
                 switch (userInput) {
                     case "yes" -> {
                         fightMechanics.fightRound(resident, burglar);
                         isFightWon();
+                        running = false;
                     }
                     case "no" -> {
                         fightMechanics.fightRound(burglar, resident);
                         isFightWon();
+                        running = false;
                     }
-                    default -> System.out.println("Invalid input");
+                    default -> System.out.println("\nInvalid input");
                 }
             }
         }
@@ -67,8 +71,10 @@ public class Hallway implements Rooms {
     public void isFightWon() {
         if (burglar.isConscious() && !resident.isConscious()) {
             System.out.println("\nYou wake up in the living room. The burglar must have dragged you here.");
-        } else {
+        } else if (!burglar.isConscious()){
             winFight();
+        } else if (burglar.isConscious() && resident.isConscious()) {
+            System.out.println("\nYou flee back to the living room.");
         }
     }
 

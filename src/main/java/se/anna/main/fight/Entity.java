@@ -23,9 +23,13 @@ public abstract class Entity {
         return health;
     }
 
-    public int setHealth(int damage) {
+    public int takeDamage(int damage) {
         health -= damage;
         return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
     }
 
     public int getDamage() {
@@ -37,7 +41,7 @@ public abstract class Entity {
     }
 
     public void attack(Entity toPunch) {
-        toPunch.setHealth(damage);
+        toPunch.takeDamage(damage);
     }
 
     public boolean isConscious() {

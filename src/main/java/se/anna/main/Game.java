@@ -23,7 +23,7 @@ public class Game {
         hallway = new Hallway(scanner, fightMechanics, resident, burglar);
         kitchen = new Kitchen(scanner, resident);
         bedroom = new Bedroom(scanner);
-        office = new Office(scanner, burglar);
+        office = new Office(scanner, burglar, false);
     }
 
     public void start() {
@@ -43,19 +43,23 @@ public class Game {
     public void basicMenu() {
         boolean running = true;
         while (running) {
-            System.out.println("\nWhere are you going to go?\n*) Hallway\n*) Office\n*) Bedroom\n*) Kitchen\n*) Quit game");
-            String userInput = scanner.nextLine().toLowerCase().trim();
-            switch (userInput) {
-                case "hallway" -> travel("hallway", hallway);
-                case "office" -> travel("office", office);
-                case "bedroom" -> travel("bedroom", bedroom);
-                case "kitchen" -> travel("kitchen", kitchen);
-                case "quit game" -> {
-                    System.out.print("\nThank you for playing!\nQuitting game");
-                    scanner.close();
-                    running = false;
+            if (((Office) office).isCalledPolice()){
+                running = false;
+            } else {
+                System.out.println("\nWhere are you going to go?\n*) Hallway\n*) Office\n*) Bedroom\n*) Kitchen\n*) Quit game");
+                String userInput = scanner.nextLine().toLowerCase().trim();
+                switch (userInput) {
+                    case "hallway" -> travel("hallway", hallway);
+                    case "office" -> travel("office", office);
+                    case "bedroom" -> travel("bedroom", bedroom);
+                    case "kitchen" -> travel("kitchen", kitchen);
+                    case "quit game" -> {
+                        System.out.print("\nThank you for playing!\nQuitting game");
+                        scanner.close();
+                        running = false;
+                    }
+                    default -> System.out.println("\nInvalid input");
                 }
-                default -> System.out.println("\nInvalid input");
             }
         }
     }

@@ -40,13 +40,13 @@ public class Kitchen implements Rooms {
                     System.out.println("\nYou go back to the living room.");
                     running = false;
                 }
-                default -> System.out.println("Invalid input");
+                default -> System.out.println("\nInvalid input");
             }
         }
     }
 
     public void takeFryingPan() {
-        System.out.println("\nTake frying pan?");
+        System.out.println("\nTake frying pan? Yes/No");
         String userInput = scanner.nextLine().toLowerCase().trim();
         if (userInput.equals("yes")) {
             System.out.println("\nYou take the frying pan.");
@@ -54,7 +54,7 @@ public class Kitchen implements Rooms {
         } else if (userInput.equals("no")) {
             System.out.println("\nYou do not take the frying pan.");
         } else {
-            System.out.println("Invalid input.");
+            System.out.println("\nInvalid input.");
         }
     }
 
