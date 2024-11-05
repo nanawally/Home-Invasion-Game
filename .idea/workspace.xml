@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fab18fe7-f106-4b29-ad6d-7b97ead266b9" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/se/anna/main/fight/EntityTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/Entity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +20,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -44,22 +48,126 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Administratör/Documents/JavaProjects/Java B/Home-Invasion-Game/src/main/java/se/anna/main/Main.java&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "JUnit.EntityTest.attack.executor": "Run",
+    "JUnit.EntityTest.isConsciousTestFalse.executor": "Run",
+    "JUnit.EntityTest.isConsciousTestTrue.executor": "Run",
+    "JUnit.EntityTest.takeDamageTest.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/Users/Administratör/Documents/JavaProjects/Java B/Home-Invasion-Game/src/main/java/se/anna/main/Main.java",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="se.anna.main.fight" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EntityTest">
+    <configuration name="EntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home-Invasion-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.anna.main.fight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.anna.main.fight" />
+      <option name="MAIN_CLASS_NAME" value="se.anna.main.fight.EntityTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityTest.attack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home-Invasion-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.anna.main.fight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.anna.main.fight" />
+      <option name="MAIN_CLASS_NAME" value="se.anna.main.fight.EntityTest" />
+      <option name="METHOD_NAME" value="attack" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityTest.isConsciousTestFalse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home-Invasion-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.anna.main.fight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.anna.main.fight" />
+      <option name="MAIN_CLASS_NAME" value="se.anna.main.fight.EntityTest" />
+      <option name="METHOD_NAME" value="isConsciousTestFalse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityTest.isConsciousTestTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home-Invasion-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.anna.main.fight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.anna.main.fight" />
+      <option name="MAIN_CLASS_NAME" value="se.anna.main.fight.EntityTest" />
+      <option name="METHOD_NAME" value="isConsciousTestTrue" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EntityTest.takeDamageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Home-Invasion-Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="se.anna.main.fight.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="se.anna.main.fight" />
+      <option name="MAIN_CLASS_NAME" value="se.anna.main.fight.EntityTest" />
+      <option name="METHOD_NAME" value="takeDamageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EntityTest" />
+        <item itemvalue="JUnit.EntityTest.isConsciousTestTrue" />
+        <item itemvalue="JUnit.EntityTest.isConsciousTestFalse" />
+        <item itemvalue="JUnit.EntityTest.takeDamageTest" />
+        <item itemvalue="JUnit.EntityTest.attack" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -78,7 +186,8 @@
       <updated>1730202357530</updated>
       <workItem from="1730202358456" duration="9805000" />
       <workItem from="1730361574624" duration="3308000" />
-      <workItem from="1730706973714" duration="10606000" />
+      <workItem from="1730706973714" duration="15256000" />
+      <workItem from="1730793140586" duration="1435000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <option name="closed" value="true" />
@@ -87,7 +196,21 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1730716817702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="commit">
+      <option name="closed" value="true" />
+      <created>1730718265521</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1730718265521</updated>
+    </task>
+    <task id="LOCAL−00003" summary="commit">
+      <option name="closed" value="true" />
+      <created>1730718532254</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1730718532254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

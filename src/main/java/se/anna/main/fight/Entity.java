@@ -15,16 +15,7 @@ public abstract class Entity {
         return role;
     }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
-
     public int getHealth() {
-        return health;
-    }
-
-    public int takeDamage(int damage) {
-        health -= damage;
         return health;
     }
 
@@ -38,6 +29,11 @@ public abstract class Entity {
 
     public void setDamage(int damage) {
         this.damage = damage;
+    }
+
+    public int takeDamage(int damage) {
+        health -= damage;
+        return health;
     }
 
     public void attack(Entity toPunch) {
