@@ -1,7 +1,7 @@
 package se.anna.main.fight;
 
 public abstract class Entity {
-    private String role;
+    private final String role;
     private int health;
     private int damage;
 

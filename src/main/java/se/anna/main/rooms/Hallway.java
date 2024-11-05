@@ -73,6 +73,7 @@ public class Hallway implements Rooms {
             System.out.println("\nYou wake up in the living room. The burglar must have dragged you here.");
         } else if (!burglar.isConscious()) {
             winFight();
+            System.out.println("\nThe burglar has been defeated! You return to the living room.");
         } else if (burglar.isConscious() && resident.isConscious()) {
             System.out.println("\nYou flee back to the living room.");
         }

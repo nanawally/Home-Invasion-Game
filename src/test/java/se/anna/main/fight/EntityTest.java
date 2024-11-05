@@ -9,16 +9,16 @@ class EntityTest {
     void attackTest() {
         Resident resident = new Resident("the resident", 12, 3);
         Burglar burglar = new Burglar("the burglar", 12, 4);
-        resident.takeDamage(burglar.getDamage());
-        Assertions.assertEquals(8, resident.getHealth());
+        resident.attack(burglar);
+        Assertions.assertEquals(9, burglar.getHealth());
     }
 
     @Test
     void takeDamageTest() {
         Resident resident = new Resident("the resident", 12, 3);
         Burglar burglar = new Burglar("the burglar", 12, 4);
-        int burglarHealth = burglar.getHealth();
-        Assertions.assertEquals(9, burglarHealth -= resident.getDamage());
+        resident.takeDamage(burglar.getDamage());
+        Assertions.assertEquals(8, resident.getHealth());
     }
 
     @Test
