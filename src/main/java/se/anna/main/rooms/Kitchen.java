@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Kitchen implements Rooms {
     private final Scanner scanner;
     private boolean takenFryingpan;
-    private Resident resident;
+    private final Resident resident;
 
     public Kitchen(Scanner scanner, Resident resident) {
         this.scanner = scanner;
@@ -24,7 +24,7 @@ public class Kitchen implements Rooms {
     public void menu() {
         boolean running = true;
         while (running) {
-            System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
+            mostBasicMenu();
             String userInput = scanner.nextLine().toLowerCase().trim();
             switch (userInput) {
                 case "look around" -> {
@@ -43,6 +43,11 @@ public class Kitchen implements Rooms {
                 default -> System.out.println("\nInvalid input");
             }
         }
+    }
+
+    @Override
+    public void mostBasicMenu() {
+        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
     }
 
     public void takeFryingPan() {

@@ -18,7 +18,7 @@ public class Bedroom implements Rooms {
     public void menu() {
         boolean running = true;
         while (running) {
-            System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
+            mostBasicMenu();
             String userInput = scanner.nextLine().toLowerCase().trim();
             switch (userInput) {
                 case "look around" -> System.out.println("\nYou look around the room. It does not contain " +
@@ -30,5 +30,10 @@ public class Bedroom implements Rooms {
                 default -> System.out.println("\nInvalid input");
             }
         }
+    }
+
+    @Override
+    public void mostBasicMenu() {
+        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
     }
 }

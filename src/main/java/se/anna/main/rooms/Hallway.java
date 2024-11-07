@@ -35,7 +35,7 @@ public class Hallway implements Rooms {
         boolean running = true;
         while (running) {
             if (isBurglarDown) {
-                System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
+                mostBasicMenu();
                 String userInput = scanner.nextLine().toLowerCase().trim();
                 switch (userInput) {
                     case "look around" -> System.out.println("\nYou look around the room. It does not contain " +
@@ -66,6 +66,11 @@ public class Hallway implements Rooms {
                 }
             }
         }
+    }
+
+    @Override
+    public void mostBasicMenu() {
+        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
     }
 
     public void isFightWon() {

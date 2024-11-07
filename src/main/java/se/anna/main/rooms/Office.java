@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class Office implements Rooms {
     private final Scanner scanner;
     private boolean seenPhone;
-    private Burglar burglar;
+    private final Burglar burglar;
     private boolean calledPolice;
 
     public Office(Scanner scanner, Burglar burglar, boolean calledPolice) {
@@ -27,7 +27,7 @@ public class Office implements Rooms {
         boolean running = true;
         while (running) {
             if (!seenPhone) {
-                System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
+                mostBasicMenu();
                 String userInput = scanner.nextLine().toLowerCase().trim();
                 switch (userInput) {
                     case "look around" -> {
@@ -64,6 +64,11 @@ public class Office implements Rooms {
                 }
             }
         }
+    }
+
+    @Override
+    public void mostBasicMenu() {
+        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
     }
 
     public boolean callPolice() {
