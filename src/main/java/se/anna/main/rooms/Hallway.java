@@ -10,8 +10,8 @@ public class Hallway implements Rooms {
     private final Scanner scanner;
     private final FightMechanics fightMechanics;
     private boolean isBurglarDown;
-    private Resident resident;
-    private Burglar burglar;
+    private final Resident resident;
+    private final Burglar burglar;
 
     public Hallway(Scanner scanner, FightMechanics fightMechanics, Resident resident, Burglar burglar) {
         this.scanner = scanner;
