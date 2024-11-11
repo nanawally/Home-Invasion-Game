@@ -36,7 +36,7 @@ public class Kitchen implements Rooms {
                         takeFryingPan();
                     }
                 }
-                case "exit the room" -> {
+                case "exit room" -> {
                     System.out.println("\nYou go back to the living room.");
                     running = false;
                 }
@@ -47,14 +47,14 @@ public class Kitchen implements Rooms {
 
     @Override
     public void mostBasicMenu() {
-        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
+        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit room");
     }
 
     public void takeFryingPan() {
         System.out.println("\nTake frying pan? Yes/No");
         String userInput = scanner.nextLine().toLowerCase().trim();
         if (userInput.equals("yes")) {
-            System.out.println("\nYou take the frying pan.");
+            System.out.println("\nYou take the frying pan. You gain +3 damage.");
             setTakenFryingPan();
         } else if (userInput.equals("no")) {
             System.out.println("\nYou do not take the frying pan.");

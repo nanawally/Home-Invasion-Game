@@ -41,7 +41,7 @@ public class Office implements Rooms {
                     default -> System.out.println("Invalid input");
                 }
             } else {
-                System.out.println("\nWhat do you want to do?\n*) Look around\n*) Call the police\n*) Exit the room");
+                System.out.println("\nWhat do you want to do?\n*) Look around\n*) Call the police\n*) Exit room");
                 String userInput = scanner.nextLine().toLowerCase().trim();
                 switch (userInput) {
                     case "look around" -> System.out.println("""
@@ -56,7 +56,7 @@ public class Office implements Rooms {
                             System.out.println("\nCalling the police would make too much noise. Knock out the burglar first.");
                         }
                     }
-                    case "exit the room" -> {
+                    case "exit room" -> {
                         System.out.println("\nYou go back to the living room.");
                         running = false;
                     }

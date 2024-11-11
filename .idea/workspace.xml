@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fab18fe7-f106-4b29-ad6d-7b97ead266b9" name="Changes" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Bedroom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Hallway.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Hallway.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Kitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Office.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Rooms.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/rooms/Rooms.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/FightMechanics.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/se/anna/main/fight/FightMechanics.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +78,7 @@
       <recent name="se.anna.main.fight" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EntityTest">
+  <component name="RunManager">
     <configuration name="EntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Home-Invasion-Game" />
       <extension name="coverage">
@@ -192,7 +188,9 @@
       <workItem from="1730361574624" duration="3308000" />
       <workItem from="1730706973714" duration="15256000" />
       <workItem from="1730793140586" duration="9217000" />
-      <workItem from="1730970511811" duration="570000" />
+      <workItem from="1730970511811" duration="1578000" />
+      <workItem from="1731252598823" duration="381000" />
+      <workItem from="1731311838938" duration="1562000" />
     </task>
     <task id="LOCAL−00001" summary="commit">
       <option name="closed" value="true" />
@@ -236,7 +234,21 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1730802217946</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="commit">
+      <option name="closed" value="true" />
+      <created>1730971278909</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1730971278909</updated>
+    </task>
+    <task id="LOCAL−00008" summary="commit">
+      <option name="closed" value="true" />
+      <created>1730971440871</created>
+      <option name="number" value="LOCAL−00008" />
+      <option name="presentableId" value="LOCAL−00008" />
+      <updated>1730971440871</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

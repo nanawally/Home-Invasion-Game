@@ -34,7 +34,8 @@ public class FightMechanics {
 
     static void executeAttack(Entity attacker, Entity defender) {
         attacker.attack(defender);
-        System.out.println("\n" + attacker.getRole() + " has attacked " + defender.getRole() + ".");
+        System.out.println("\n" + attacker.getRole() + " has attacked " + defender.getRole() + " and done " +
+                attacker.getDamage()+" health points worth of damage.");
         if (defender.isConscious()) {
             System.out.println("\n" + defender.getRole() + " has " + defender.getHealth() + " health points left.");
         } else {

@@ -40,7 +40,7 @@ public class Hallway implements Rooms {
                 switch (userInput) {
                     case "look around" -> System.out.println("\nYou look around the room. It does not contain " +
                             "anything useful.");
-                    case "exit the room" -> {
+                    case "exit room" -> {
                         System.out.println("\nYou go back to the living room.");
                         running = false;
                     }
@@ -70,7 +70,7 @@ public class Hallway implements Rooms {
 
     @Override
     public void mostBasicMenu() {
-        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit the room");
+        System.out.println("\nWhat do you want to do?\n*) Look around\n*) Exit room");
     }
 
     public void isFightWon() {
